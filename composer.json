@@ -1,0 +1,17 @@
+{
+    "name": "cedcoss/php_mvc_blog",
+    "autoload": {
+        "psr-4": {
+            "Cedcoss\\PhpMvcBlog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ayush1790",
+            "email": "ayushgupta@cedcoss.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
