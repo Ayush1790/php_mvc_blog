@@ -1,8 +1,8 @@
 <?php
 include_once '../assets/bootstrap.php';
 ?>
+<!-- header page -->
 <!-- navber -->
-
 <nav class="navbar navbar-expand-lg navbar-light bg-light ">
   <a class="navbar-brand ms-4" href="#">Blog's</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +25,9 @@ include_once '../assets/bootstrap.php';
         <a class='nav-link ' href='login.php' >Login</a>
       </li>";
       } else {
-        echo "  <li class='nav-item'></li>
+        echo "<li class='nav-item'>
+        <a class='nav-link' href='./addBlog.php'>Add Blog</a>
+      </li>  <li class='nav-item'></li>
       <a class='nav-link ' href='logout.php' >LogOut</a>
     </li>";
       }

@@ -1,8 +1,7 @@
 <?php
 // registration
-
 include_once '../directory.php';
-include_once APP_PATH.'/db/config.php';
+include_once APP_PATH . '/db/config.php';
 if (isset($_POST)) {
    $name = $_POST['name'];
    $email = $_POST['email'];

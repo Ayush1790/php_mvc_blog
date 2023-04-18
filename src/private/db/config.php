@@ -1,4 +1,5 @@
 <?php
+// active records configuration
 include_once '../directory.php';
 require_once APP_PATH.'/library/php-activerecord/ActiveRecord.php';
 ActiveRecord\Config::initialize(function ($cfg) {
@@ -7,3 +8,4 @@ ActiveRecord\Config::initialize(function ($cfg) {
         'development' => 'mysql://root:secret@mysql-server/myBlog'
     ));
 });
+session_start();

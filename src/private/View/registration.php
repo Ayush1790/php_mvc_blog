@@ -1,9 +1,10 @@
 <?php
-if(isset($_GET['msg'])){
+if (isset($_GET['msg'])) {
     echo $_GET['msg'];
     unset($_GET['msg']);
 }
 ?>
+<!-- registration page -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,7 +33,7 @@ if(isset($_GET['msg'])){
                                             <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                                             <!-- name field -->
                                             <div class="form-outline flex-fill mb-0">
-                                                <input type="text" id="name" class="form-control" name="name" required/>
+                                                <input type="text" id="name" class="form-control" name="name" required />
                                                 <label class="form-label" for="form3Example1c">Your Name</label>
                                                 <label for="" id="name_msg"></label>
                                             </div>
@@ -41,7 +42,7 @@ if(isset($_GET['msg'])){
                                         <div class="d-flex flex-row align-items-center mb-4">
                                             <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                                             <div class="form-outline flex-fill mb-0">
-                                                <input type="email" id="email" class="form-control" name="email" required/>
+                                                <input type="email" id="email" class="form-control" name="email" required />
                                                 <label class="form-label" for="form3Example3c">Your Email</label>
                                                 <label for="" id="email_msg"></label>
                                             </div>
@@ -50,12 +51,12 @@ if(isset($_GET['msg'])){
                                         <div class="d-flex flex-row align-items-center mb-4">
                                             <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
                                             <div class="form-outline flex-fill mb-0">
-                                                <input type="password" id="pswd" class="form-control" name="pswd" required/>
+                                                <input type="password" id="pswd" class="form-control" name="pswd" required />
                                                 <label class="form-label" for="form3Example4c">Password</label>
                                                 <label for="" id="pswd_msg"></label>
                                             </div>
                                         </div>
-                                      
+
                                         <!-- login and submit button -->
                                         <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                                             <input type="submit" class="btn btn-primary btn-lg" value="submit" id="submit"> </input>
